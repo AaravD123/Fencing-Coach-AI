@@ -1,0 +1,1072 @@
+	<!DOCTYPE html>
+	<html  lang="en-US" prefix="og: https://ogp.me/ns#">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+		<link rel="profile" href="https://gmpg.org/xfn/11" />
+		<link rel="pingback" href="" />
+		<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script>
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>Fencing Tournaments | Olympia Fencing Center</title>
+<meta name="description" content="USFA Competitive Schedule Information."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://olympiafencingcenter.com/tournament-season-2025-26/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Fencing Tournaments | Olympia Fencing Center" />
+<meta property="og:description" content="USFA Competitive Schedule Information." />
+<meta property="og:url" content="https://olympiafencingcenter.com/tournament-season-2025-26/" />
+<meta property="og:site_name" content="Olympia Fencing Center" />
+<meta property="og:updated_time" content="2025-07-09T16:09:00-04:00" />
+<meta property="og:image" content="https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled.jpg" />
+<meta property="og:image:secure_url" content="https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled.jpg" />
+<meta property="og:image:width" content="1111" />
+<meta property="og:image:height" content="654" />
+<meta property="og:image:alt" content="Fencing Tournaments" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="article:published_time" content="2013-11-25T12:44:08-05:00" />
+<meta property="article:modified_time" content="2025-07-09T16:09:00-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Fencing Tournaments | Olympia Fencing Center" />
+<meta name="twitter:description" content="USFA Competitive Schedule Information." />
+<meta name="twitter:image" content="https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled.jpg" />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="9 minutes" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["LocalBusiness","Organization"],"@id":"https://olympiafencingcenter.com/#organization","name":"Olympia Fencing Center","url":"https://olympiafencingcenter.com","logo":{"@type":"ImageObject","@id":"https://olympiafencingcenter.com/#logo","url":"https://olympiafencingcenter.com/wp-content/uploads/2020/02/OFC.png","contentUrl":"https://olympiafencingcenter.com/wp-content/uploads/2020/02/OFC.png","caption":"Olympia Fencing Center","inLanguage":"en-US","width":"696","height":"974"},"openingHours":["Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:00-17:00"],"image":{"@id":"https://olympiafencingcenter.com/#logo"}},{"@type":"WebSite","@id":"https://olympiafencingcenter.com/#website","url":"https://olympiafencingcenter.com","name":"Olympia Fencing Center","publisher":{"@id":"https://olympiafencingcenter.com/#organization"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled.jpg","url":"https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled.jpg","width":"200","height":"200","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://olympiafencingcenter.com/tournament-season-2025-26/#webpage","url":"https://olympiafencingcenter.com/tournament-season-2025-26/","name":"Fencing Tournaments | Olympia Fencing Center","datePublished":"2013-11-25T12:44:08-05:00","dateModified":"2025-07-09T16:09:00-04:00","isPartOf":{"@id":"https://olympiafencingcenter.com/#website"},"primaryImageOfPage":{"@id":"https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled.jpg"},"inLanguage":"en-US"},{"@type":"Article","headline":"Fencing Tournaments | Olympia Fencing Center","datePublished":"2013-11-25T12:44:08-05:00","dateModified":"2025-07-09T16:09:00-04:00","author":{"@type":"Person","name":"admin"},"description":"Our students currently hold the best results in New England Division Fencing Tournaments, some of the best in the country, and even internationally.","name":"Fencing Tournaments | Olympia Fencing Center","@id":"https://olympiafencingcenter.com/tournament-season-2025-26/#schema-16398","isPartOf":{"@id":"https://olympiafencingcenter.com/tournament-season-2025-26/#webpage"},"publisher":{"@id":"https://olympiafencingcenter.com/#organization"},"image":{"@id":"https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled.jpg"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://olympiafencingcenter.com/tournament-season-2025-26/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+		<link rel="shortcut icon" href="//olympiafencingcenter..com/wp-content/themes/porto/images/logo/favicon.ico" type="image/x-icon" />
+				<link rel="apple-touch-icon" href="//olympiafencingcenter..com/wp-content/themes/porto/images/logo/apple-touch-icon.png" />
+				<link rel="apple-touch-icon" sizes="120x120" href="//olympiafencingcenter..com/wp-content/themes/porto/images/logo/apple-touch-icon_120x120.png" />
+				<link rel="apple-touch-icon" sizes="76x76" href="//olympiafencingcenter..com/wp-content/themes/porto/images/logo/apple-touch-icon_76x76.png" />
+				<link rel="apple-touch-icon" sizes="152x152" href="//olympiafencingcenter..com/wp-content/themes/porto/images/logo/apple-touch-icon_152x152.png" />
+		<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/olympiafencingcenter.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<link rel='stylesheet' id='yrw_widget_css-css' href='https://olympiafencingcenter.com/wp-content/plugins/widget-yelp-reviews/static/css/yrw-widget.css?ver=1.7.8' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://olympiafencingcenter.com/wp-includes/css/dist/block-library/style.min.css?ver=6.6.3' media='all' />
+<style id='wp-block-library-theme-inline-css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary: var(--porto-primary-color);--wp--preset--color--secondary: var(--porto-secondary-color);--wp--preset--color--tertiary: var(--porto-tertiary-color);--wp--preset--color--quaternary: var(--porto-quaternary-color);--wp--preset--color--dark: var(--porto-dark-color);--wp--preset--color--light: var(--porto-light-color);--wp--preset--color--primary-hover: var(--porto-primary-light-5);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='searchandfilter-css' href='https://olympiafencingcenter.com/wp-content/plugins/search-filter/style.css?ver=1' media='all' />
+<link rel='stylesheet' id='simple-banner-style-css' href='https://olympiafencingcenter.com/wp-content/plugins/simple-banner/simple-banner.css?ver=3.0.10' media='all' />
+<link rel='stylesheet' id='qtip2css-css' href='https://olympiafencingcenter.com/wp-content/plugins/wordpress-tooltips/js/qtip2/jquery.qtip.min.css?ver=6.6.3' media='all' />
+<link rel='stylesheet' id='directorycss-css' href='https://olympiafencingcenter.com/wp-content/plugins/wordpress-tooltips/js/jdirectory/directory.min.css?ver=6.6.3' media='all' />
+<link rel='stylesheet' id='brb-public-main-css-css' href='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/css/public-main.css?ver=1.9.29' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://olympiafencingcenter.com/wp-content/plugins/tablepress/css/build/default.css?ver=3.1.3' media='all' />
+<link rel='stylesheet' id='simcal-qtip-css' href='https://olympiafencingcenter.com/wp-content/plugins/google-calendar-events/assets/generated/vendor/jquery.qtip.min.css?ver=3.5.5' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-grid-css' href='https://olympiafencingcenter.com/wp-content/plugins/google-calendar-events/assets/generated/default-calendar-grid.min.css?ver=3.5.5' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-list-css' href='https://olympiafencingcenter.com/wp-content/plugins/google-calendar-events/assets/generated/default-calendar-list.min.css?ver=3.5.5' media='all' />
+<link rel='stylesheet' id='lgc-unsemantic-grid-responsive-tablet-css' href='https://olympiafencingcenter.com/wp-content/plugins/lightweight-grid-columns/css/unsemantic-grid-responsive-tablet.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='porto-css-vars-css' href='https://olympiafencingcenter.com/wp-content/uploads/porto_styles/theme_css_vars.css?ver=7.4.2' media='all' />
+<link rel='stylesheet' id='js_composer_front-css' href='https://olympiafencingcenter.com/wp-content/uploads/porto_styles/js_composer.css?ver=7.4.2' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://olympiafencingcenter.com/wp-content/uploads/porto_styles/bootstrap.css?ver=7.4.2' media='all' />
+<link rel='stylesheet' id='porto-plugins-css' href='https://olympiafencingcenter.com/wp-content/themes/porto/css/plugins.css?ver=7.4.2' media='all' />
+<link rel='stylesheet' id='porto-theme-css' href='https://olympiafencingcenter.com/wp-content/themes/porto/css/theme.css?ver=7.4.2' media='all' />
+<link rel='stylesheet' id='porto-shortcodes-css' href='https://olympiafencingcenter.com/wp-content/uploads/porto_styles/shortcodes.css?ver=7.4.2' media='all' />
+<link rel='stylesheet' id='porto-theme-wpb-css' href='https://olympiafencingcenter.com/wp-content/themes/porto/css/theme_wpb.css?ver=7.4.2' media='all' />
+<link rel='stylesheet' id='porto-dynamic-style-css' href='https://olympiafencingcenter.com/wp-content/uploads/porto_styles/dynamic_style.css?ver=7.4.2' media='all' />
+<link rel='stylesheet' id='porto-type-builder-css' href='https://olympiafencingcenter.com/wp-content/plugins/porto-functionality/builders/assets/type-builder.css?ver=3.4.5' media='all' />
+<link rel='stylesheet' id='porto-style-css' href='https://olympiafencingcenter.com/wp-content/themes/porto/style.css?ver=7.4.2' media='all' />
+<style id='porto-style-inline-css'>
+.side-header-narrow-bar-logo{max-width:450px}#header,.sticky-header .header-main.sticky{border-top:3px solid #ededed}@media (min-width:992px){}#header .searchform input{font-family:inherit;font-size:14px}#header .mobile-toggle:before{content:'Menu';margin-right:4px}@media (max-width:767px){#header .feature-box .feature-box-icon{display:none}#header .feature-box .feature-box-info > h4{font-size:14px !important;line-height:50px !important}#header .header-extra-info li{float:right;padding-right:0 !important;padding-left:15px}#header .header-contact{display:block}}@media (min-width:992px){#header .header-extra-info > li:nth-child(2){min-width:226px}}.wpcf7-form .col-lg-6,.wpcf7-form .col-lg-12{padding-left:5px;padding-right:5px}.wpcf7-form .row{margin-left:-5px;margin-right:-5px}#footer .wpb_text_column{margin-bottom:0}#footer .footer-bottom{margin-top:0;padding-top:0}.no-breadcrumbs .main-content,body.woocommerce .main-content{padding-top:50px}.no-breadcrumbs .left-sidebar,.no-breadcrumbs .right-sidebar,body.woocommerce .left-sidebar,body.woocommerce .right-sidebar{padding-top:50px}.member-image{margin-bottom:0}.single-member article.member hr.tall{background-image:none;margin:10px 0}.single-member article.member .entry-title{font-size:36px}.single-member article.member .entry-title strong{font-weight:inherit}.single-member article.member .member-role{font-size:21px;font-weight:300;color:#777}article.post-title-simple h2.entry-title{font-size:2.6em;margin-bottom:60px;position:relative}article.post-title-simple h2.entry-title:after{content:"";display:block;position:absolute;width:50px;height:3px;left:0;bottom:-36px;background:#cfa968}.owl-carousel .owl-nav [class*="owl-"]:before{font-family:'Font Awesome 5 Free';font-weight:900}.owl-carousel .owl-nav .owl-prev:before{content:"\f053"}.owl-carousel .owl-nav .owl-next:before{content:"\f054"}.sidebar-content .filter-title{color:#1d2127 !important}.sidebar-content .filter-title strong{font-weight:inherit}.rtl #header .mobile-toggle:before{margin-left:4px;margin-right:0}.rtl #header .searchform-popup{margin-left:0}@media (max-width:767px){.rtl #header .header-extra-info li{float:left;padding-left:0 !important;padding-right:15px !important}}.rtl article.post-title-simple h2.entry-title:after{right:0;left:auto}.header_adress_style .porto-sicon-box.left-icon{margin-bottom:5px}#header .header-main .header-left{padding:0 0}#footer .footer-main>.container{padding-top:20px;padding-bottom:0}.porto-block .tooltipsall{color:#333 !important;font-weight:bold}ul.tooltip_box_style{margin:0 !important;padding:0}ul.tooltip_box_style li{padding-top:10px;font-size:15px}ul.tooltip_box_style li i{background:#1e73be;padding:8px;margin-right:10px;border-radius:50%}.on_click_redirect_home{cursor:pointer}@media (max-width:767px){.on_click_redirect_home h3{font-size:25px !important}}#custom_html-3{height:300px !important;overflow:auto}.custom-font1 h3{font-family:Georgia,serif !important}.classtoolTipsCustomShortCode{font-size:25px;font-weight:700 !important}.footer-top h3.widget-title.sbg_title{color:#fff !important}.footer-top form#mc4wp-form-2 p{color:#fff!important}
+</style>
+<link rel='stylesheet' id='styles-child-css' href='https://olympiafencingcenter.com/wp-content/themes/porto-child-Theme/style.css?ver=1738503656' media='all' />
+<script src="https://olympiafencingcenter.com/wp-content/plugins/widget-yelp-reviews/static/js/wpac-time.js?ver=1.7.8" id="wpac_time_js-js"></script>
+<script src="https://olympiafencingcenter.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://olympiafencingcenter.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script id="simple-banner-script-js-before">
+const simpleBannerScriptParams = {"pro_version_enabled":"","debug_mode":"","id":1135,"version":"3.0.10","banner_params":[{"hide_simple_banner":"no","simple_banner_prepend_element":"body","simple_banner_position":"sticky","header_margin":"","header_padding":"","wp_body_open_enabled":"","wp_body_open":true,"simple_banner_z_index":"","simple_banner_text":"<a href=\"https:\/\/olympiafencingcenter.com\/book-free-fencing-class\/\"> Discover the Olympic sport of fencing: follow this link to book your trial class today! Classes offered in both Cambridge and Newton locations, for all ages and levels!\ud83e\udd3a<\/a>","disabled_on_current_page":false,"disabled_pages_array":[],"is_current_page_a_post":false,"disabled_on_posts":"","simple_banner_disabled_page_paths":"","simple_banner_font_size":"20px","simple_banner_color":"#e7f5a3","simple_banner_text_color":"#ea3434","simple_banner_link_color":"#e62828","simple_banner_close_color":"","simple_banner_custom_css":"","simple_banner_scrolling_custom_css":"","simple_banner_text_custom_css":"","simple_banner_button_css":"","site_custom_css":"","keep_site_custom_css":"","site_custom_js":"","keep_site_custom_js":"","close_button_enabled":"","close_button_expiration":"7","close_button_cookie_set":false,"current_date":{"date":"2025-08-09 22:36:42.293101","timezone_type":3,"timezone":"UTC"},"start_date":{"date":"2025-08-09 22:36:42.293104","timezone_type":3,"timezone":"UTC"},"end_date":{"date":"2025-08-09 22:36:42.293106","timezone_type":3,"timezone":"UTC"},"simple_banner_start_after_date":"","simple_banner_remove_after_date":"","simple_banner_insert_inside_element":""}]}
+</script>
+<script src="https://olympiafencingcenter.com/wp-content/plugins/simple-banner/simple-banner.js?ver=3.0.10" id="simple-banner-script-js"></script>
+<script src="https://olympiafencingcenter.com/wp-content/plugins/wordpress-tooltips/js/qtip2/jquery.qtip.min.js?ver=6.6.3" id="qtip2js-js"></script>
+<script src="https://olympiafencingcenter.com/wp-content/plugins/wordpress-tooltips/js/jdirectory/jquery.directory.min.js?ver=6.6.3" id="directoryjs-js"></script>
+<script id="brb-public-main-js-js-extra">
+var brb_vars = {"ajaxurl":"https:\/\/olympiafencingcenter.com\/wp-admin\/admin-ajax.php","gavatar":"https:\/\/olympiafencingcenter.com\/wp-content\/plugins\/business-reviews-bundle\/assets\/img\/google_avatar.png"};
+</script>
+<script defer="defer" src="https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/js/public-main.js?ver=1.9.29" id="brb-public-main-js-js"></script>
+<script></script><link rel="https://api.w.org/" href="https://olympiafencingcenter.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://olympiafencingcenter.com/wp-json/wp/v2/pages/1135" />
+<link rel='shortlink' href='https://olympiafencingcenter.com/?p=1135' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://olympiafencingcenter.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Folympiafencingcenter.com%2Ftournament-season-2025-26%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://olympiafencingcenter.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Folympiafencingcenter.com%2Ftournament-season-2025-26%2F&#038;format=xml" />
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="https://olympiafencingcenter.com/wp-content/plugins/lightweight-grid-columns/css/ie.min.css" />
+		<![endif]-->
+	<style id="simple-banner-position" type="text/css">.simple-banner{position:sticky;}</style><style id="simple-banner-font-size" type="text/css">.simple-banner .simple-banner-text{font-size:20px;}</style><style id="simple-banner-background-color" type="text/css">.simple-banner{background:#e7f5a3;}</style><style id="simple-banner-text-color" type="text/css">.simple-banner .simple-banner-text{color:#ea3434;}</style><style id="simple-banner-link-color" type="text/css">.simple-banner .simple-banner-text a{color:#e62828;}</style><style id="simple-banner-z-index" type="text/css">.simple-banner{z-index: 99999;}</style><style id="simple-banner-site-custom-css-dummy" type="text/css"></style><script id="simple-banner-site-custom-js-dummy" type="text/javascript"></script> 	<script type="text/javascript">	
+	if(typeof jQuery=='undefined')
+	{
+		document.write('<'+'script src="https://olympiafencingcenter.com/wp-content/plugins//wordpress-tooltips/js/qtip/jquery.js" type="text/javascript"></'+'script>');
+	}
+	</script>
+	<script type="text/javascript">
+
+	function toolTips(whichID,theTipContent)
+	{
+    		theTipContent = theTipContent.replace('[[[[[','');
+    		theTipContent = theTipContent.replace(']]]]]','');
+    		theTipContent = theTipContent.replace('@@@@','');
+    		theTipContent = theTipContent.replace('####','');
+    		theTipContent = theTipContent.replace('%%%%','');
+    		theTipContent = theTipContent.replace('//##','');
+    		theTipContent = theTipContent.replace('##]]','');
+    		    		    		    		
+			jQuery(whichID).qtip
+			(
+				{
+					content:
+					{
+						text:theTipContent,
+												
+					},
+   					style:
+   					{
+   					   						classes:' qtip-dark wordpress-tooltip-free qtip-rounded qtip-shadow '
+    				},
+    				position:
+    				{
+    					viewport: jQuery(window),
+    					my: 'bottom center',
+    					at: 'top center'
+    				},
+					show:'mouseover',
+					hide: { fixed: true, delay: 200 }
+				}
+			)
+	}
+</script>
+	
+	<style type="text/css">
+	.tooltips_table .tooltipsall
+	{
+		border-bottom:none !important;
+	}
+	.tooltips_table span {
+    color: inherit !important;
+	}
+	.qtip-content .tooltipsall
+	{
+		border-bottom:none !important;
+		color: inherit !important;
+	}
+	
+		.tooltipsincontent
+	{
+		border-bottom:2px dotted #888;	
+	}
+
+	.tooltipsPopupCreditLink a
+	{
+		color:gray;
+	}	
+	</style>
+			<style type="text/css">
+			.navitems a
+			{
+				text-decoration: none !important;
+			}
+		</style>
+				<script type="text/javascript" id="webfont-queue">
+		WebFontConfig = {
+			google: { families: [ 'Asap:400,500,600,700,800','Shadows+Into+Light:400,700','Playfair+Display:400,700','Open+Sans:400,600,700','Georgia%2C+serif:400,600,700' ] }
+		};
+		(function(d) {
+			var wf = d.createElement('script'), s = d.scripts[d.scripts.length - 1];
+			wf.src = 'https://olympiafencingcenter.com/wp-content/themes/porto/js/libs/webfont.js';
+			wf.async = true;
+			s.parentNode.insertBefore(wf, s);
+		})(document);</script>
+		<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style><style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style><script id="google_gtagjs" src="https://www.googletagmanager.com/gtag/js?id=G-GRSZJ8CM7D" async></script>
+<script id="google_gtagjs-inline">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-GRSZJ8CM7D', {} );
+</script>
+<meta name="generator" content="Powered by Slider Revolution 6.7.20 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://olympiafencingcenter.com/wp-content/uploads/2020/07/cropped-OFC_01-1pn-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://olympiafencingcenter.com/wp-content/uploads/2020/07/cropped-OFC_01-1pn-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://olympiafencingcenter.com/wp-content/uploads/2020/07/cropped-OFC_01-1pn-180x180.png" />
+<meta name="msapplication-TileImage" content="https://olympiafencingcenter.com/wp-content/uploads/2020/07/cropped-OFC_01-1pn-270x270.png" />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	</head>
+	<body class="page-template-default page page-id-1135 wp-embed-responsive full blog-1 wpb-js-composer js-comp-ver-7.9 vc_responsive">
+<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">if(typeof ewww_webp_supported==="undefined"){var ewww_webp_supported=!1}if(ewww_webp_supported){document.body.classList.add("webp-support")}</script>
+	
+	<div class="page-wrapper"><!-- page wrapper -->
+		
+											<!-- header wrapper -->
+				<div class="header-wrapper">
+										<header id="header" class="header-separate header-corporate header-17 sticky-menu-header">
+	
+	<div class="header-main">
+		<div class="container">
+			<div class="header-left">
+			
+	<div class="logo">
+	<a href="https://olympiafencingcenter.com/" title="Olympia Fencing Center - We Raise Champions"  rel="home">
+		<img class="img-responsive standard-logo retina-logo lazyload" width="556" height="143" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAiwAAACPAQAAAADxG70tAAAAAnRSTlMAAHaTzTgAAAAhSURBVGje7cExAQAAAMKg9U9tCj+gAAAAAAAAAAAAgJsBJ6kAAeMagtYAAAAASUVORK5CYII=" alt="Olympia Fencing Center" data-src="//olympiafencingcenter.com/wp-content/uploads/2020/07/NewUpdateLogo.png" decoding="async" data-eio-rwidth="556" data-eio-rheight="143" /><noscript><img class="img-responsive standard-logo retina-logo" width="556" height="143" src="//olympiafencingcenter.com/wp-content/uploads/2020/07/NewUpdateLogo.png" alt="Olympia Fencing Center" data-eio="l" /></noscript>	</a>
+	</div>
+				</div>
+			<div class="header-right">
+				<div class="header-contact"><ul class="header-extra-info">
+    <li>
+<span class='tooltipsall tooltip_post_id_custom_0f93cba678dae04826c8e518c7739d24 classtoolTipsCustomShortCode' style='border-bottom:2px dotted #888;'>Cambridge, MA</span><script type="text/javascript">jQuery("document").ready(function(){ toolTips('.tooltip_post_id_custom_0f93cba678dae04826c8e518c7739d24','<br/>\<ul class\="tooltip_box_style"\><br/> 	\<li\>\<a href\="https\:\/\/olympiafencingcenter\.com\/cambridge\-location\/"\>\<i class\="fas fa\-map\-marker\-alt"\>\<\/i\> 127 Smith Pl\. Cambridge MA\<\/a\>\<\/li\><br/> 	\<li\>\<a href\="tel\:\(617\) 945 9448"\> \<i class\="fas fa\-phone\-volume"\>\<\/i\>\(617\) 945 9448\<\/a\>\<\/li\><br/> 	\<li\>\<a href\="mailto\:info@olympiafencingcenter\.com"\>\<i class\="far fa\-envelope\-open"\>\<\/i\>info@olympiafencingcenter\.com\<\/a\>\<\/li\><br/>\<\/ul\><br/>'); });</script>
+</li>
+<li>
+<span class='tooltipsall tooltip_post_id_custom_eff7eef66b72727d6712e50f58043278 classtoolTipsCustomShortCode' style='border-bottom:2px dotted #888;'>Newton, MA</span><script type="text/javascript">jQuery("document").ready(function(){ toolTips('.tooltip_post_id_custom_eff7eef66b72727d6712e50f58043278','<br/>\<ul class\="tooltip_box_style"\><br/> 	\<li\>\<a href\="https\:\/\/olympiafencingcenter\.com\/newton\-highlands\-location\/"\>\<i class\="fas fa\-map\-marker\-alt"\>\<\/i\> 66 Winchester St\. Newton, MA\<\/a\>\<\/li\><br/> 	\<li\>\<a href\="tel\: \(617\) 467 4104"\> \<i class\="fas fa\-phone\-volume"\>\<\/i\>\(617\) 467 4104\<\/a\>\<\/li\><br/> 	\<li\>\<a href\="mailto\:info@olympiafencingcenter\.com"\>\<i class\="far fa\-envelope\-open"\>\<\/i\>info@olympiafencingcenter\.com\<\/a\>\<\/li\><br/>\<\/ul\><br/>'); });</script>
+    </li>
+     
+</ul></div><a class="mobile-toggle" href="#" aria-label="Mobile Menu"><i class="fas fa-bars"></i></a>				
+				
+			</div>
+		</div>
+			</div>
+
+			<div class="main-menu-wrap menu-flat menu-flat-border">
+			<div id="main-menu" class="container ">
+				<div class="menu-center">
+				<ul id="menu-october-2024" class="main-menu mega-menu menu-flat menu-flat-border show-arrow"><li id="nav-menu-item-8822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub narrow"><a href="https://olympiafencingcenter.com/about-us/">About Us</a>
+<div class="popup"><div class="inner" style=""><ul class="sub-menu porto-narrow-sub-menu">
+	<li id="nav-menu-item-8825" class="menu-item menu-item-type-post_type menu-item-object-page" data-cols="1"><a href="https://olympiafencingcenter.com/coaches-stellar-team/">Coaches &#038; Staff</a></li>
+	<li id="nav-menu-item-11067" class="menu-item menu-item-type-custom menu-item-object-custom" data-cols="1"><a href="https://olympiafencingcenter.com/calendar/club-schedule-calendar/">Club Calendar</a></li>
+	<li id="nav-menu-item-8826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub" data-cols="1"><a title="Directions to Olympia" href="https://olympiafencingcenter.com/contact-us/">Contact/Directions</a>
+	<ul class="sub-menu">
+		<li id="nav-menu-item-9756" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/cambridge-location/">Cambridge Location</a></li>
+		<li id="nav-menu-item-9441" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/newton-location/">Newton Highlands Location</a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-12978" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/peer-to-peer-mentorship-program/">Introducing our exclusive Mentorship Program</a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-8881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children has-sub narrow"><a href="https://olympiafencingcenter.com/">Class Schedule</a>
+<div class="popup"><div class="inner" style=""><ul class="sub-menu porto-narrow-sub-menu">
+	<li id="nav-menu-item-9690" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/cambridge-class-schedule/">Cambridge Class Schedule</a></li>
+	<li id="nav-menu-item-9698" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/newton-class-schedule/">Newton Class Schedule</a></li>
+	<li id="nav-menu-item-9913" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/home-school-program/">Home Schoolers</a></li>
+	<li id="nav-menu-item-8852" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub" data-cols="1"><a href="https://olympiafencingcenter.com/book-free-fencing-class/">Book Your Trial Class Here</a>
+	<ul class="sub-menu">
+		<li id="nav-menu-item-11883" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/auction-gift-certificates-redemption/">Auction/Gift Certificates Redemption</a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-10386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub" data-cols="1"><a href="https://olympiafencingcenter.com/new-student-registration/">New Student Registration</a>
+	<ul class="sub-menu">
+		<li id="nav-menu-item-11888" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/usfa-new-member-registration/">Registration with US Fencing Association</a></li>
+		<li id="nav-menu-item-8849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://olympiafencingcenter.com/fencing-equipment/">Fencing Equipment: Loaners and Purchasing</a>
+		<ul class="sub-menu">
+			<li id="nav-menu-item-10663" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/fencing-equipment/fencing-gear-care/">Care and Cleaning of the Épée Fencing Gear</a></li>
+		</ul>
+</li>
+		<li id="nav-menu-item-10652" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/private-lessons-information/">Private Lessons Information</a></li>
+		<li id="nav-menu-item-8855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://olympiafencingcenter.com/club-policy/">Tuition Policy and Code of Conduct</a>
+		<ul class="sub-menu">
+			<li id="nav-menu-item-10787" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children"><a href="https://olympiafencingcenter.com/cancellation-policy/">Cancellation/Holds Policy</a>
+			<ul class="sub-menu">
+				<li id="nav-menu-item-11896" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/return-your-loaned-fencing-gear/">Return your loaned fencing gear</a></li>
+			</ul>
+</li>
+			<li id="nav-menu-item-9795" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/privacy-policy/">Privacy Policy</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-8829" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1135 current_page_item menu-item-has-children active has-sub narrow"><a href="https://olympiafencingcenter.com/tournament-season-2025-26/" class=" current">Tournament Season 2025-26</a>
+<div class="popup"><div class="inner" style=""><ul class="sub-menu porto-narrow-sub-menu">
+	<li id="nav-menu-item-9223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub" data-cols="1"><a href="https://olympiafencingcenter.com/novices-guide-competitive-fencing/">Novice’s Guide To Competitive Fencing</a>
+	<ul class="sub-menu">
+		<li id="nav-menu-item-10603" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/fencing-equipment/">Buy Fencing Equipment</a></li>
+		<li id="nav-menu-item-11074" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/private-lessons-information/">Private Lessons Information</a></li>
+		<li id="nav-menu-item-11031" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children"><a href="https://olympiafencingcenter.com/strip-coaching-101/">Strip Coaching 101</a>
+		<ul class="sub-menu">
+			<li id="nav-menu-item-12995" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/fencing-equipment/fencing-gear-care/">Care and Cleaning of the Épée Fencing Gear</a></li>
+		</ul>
+</li>
+		<li id="nav-menu-item-10520" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children"><a href="https://olympiafencingcenter.com/summer-nationals-2024-qualification/">Qualification paths for the 2025 Summer Nationals and July Challenge</a>
+		<ul class="sub-menu">
+			<li id="nav-menu-item-12754" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/national-points-101/">National Points 101- How to get in the NRP</a></li>
+			<li id="nav-menu-item-10519" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/junior-olympics-in-fencing/">What are the Junior Olympics in Fencing?</a></li>
+			<li id="nav-menu-item-10547" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/explanation-of-the-usfa-letter-ratings/">Explanation of the USFA Letter Ratings</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="nav-menu-item-10867" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/why-your-fencing-birthday-is-different-than-your-real-birthday/">Why your “Fencing Birthday” is Different than your Real Birthday?</a></li>
+	<li id="nav-menu-item-10143" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/how-to-become-an-olympic-fencer/">How to “Become” an Olympic Fencer</a></li>
+	<li id="nav-menu-item-11557" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/how-to-qualify-for-the-world-cups-a-summary/">How to Qualify for the World Cups – A Summary</a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-9840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub narrow"><a href="https://olympiafencingcenter.com/kids-summer-camps/">Camps and Clinics</a>
+<div class="popup"><div class="inner" style=""><ul class="sub-menu porto-narrow-sub-menu">
+	<li id="nav-menu-item-12987" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/pre-nationals-advanced-clinic/">Pre-Nationals Épée Advanced Clinic 2025</a></li>
+	<li id="nav-menu-item-13081" class="menu-item menu-item-type-post_type menu-item-object-page" data-cols="1"><a href="https://olympiafencingcenter.com/pre-nationals-youth-competitive-ages-9-14/">Pre-Nationals Épée Clinic for ages 9-14</a></li>
+	<li id="nav-menu-item-10049" class="menu-item menu-item-type-post_type menu-item-object-page" data-cols="1"><a href="https://olympiafencingcenter.com/kids-summer-camps/cambridge-fencing-camps/">Summer Camps for Beginner/Intermediate</a></li>
+	<li id="nav-menu-item-12881" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/elite-summer-camps/">Elite Épée Summer Camps</a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-11491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub narrow"><a href="https://olympiafencingcenter.com/member-portal/">Member Portal</a>
+<div class="popup"><div class="inner" style=""><ul class="sub-menu porto-narrow-sub-menu">
+	<li id="nav-menu-item-11575" class="menu-item menu-item-type-post_type menu-item-object-page" data-cols="1"><a href="https://olympiafencingcenter.com/dartagnan-series-for-novice-fencers/">D’Artagnan Series for Novice Fencers</a></li>
+	<li id="nav-menu-item-11771" class="menu-item menu-item-type-post_type menu-item-object-page" data-cols="1"><a href="https://olympiafencingcenter.com/private-lessons-information/">Private Lessons Information</a></li>
+	<li id="nav-menu-item-11946" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/armory-procedure/">Armory Procedure</a></li>
+	<li id="nav-menu-item-11863" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/fencing-video-analysis/">Video analysis</a></li>
+	<li id="nav-menu-item-11875" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/return-your-loaned-fencing-gear/">Return your loaned fencing gear</a></li>
+	<li id="nav-menu-item-11690" class="menu-item menu-item-type-post_type menu-item-object-page" data-cols="1"><a href="https://olympiafencingcenter.com/fencing-gear-swap-sell/">Swap your Gently Used Fencing Gear Here</a></li>
+	<li id="nav-menu-item-11751" class="menu-item menu-item-type-post_type menu-item-object-page" data-cols="1"><a href="https://olympiafencingcenter.com/order-your-club-warm-ups/">Order Your Club Warm-ups</a></li>
+	<li id="nav-menu-item-8853" class="menu-item menu-item-type-post_type menu-item-object-page" data-cols="1"><a href="https://olympiafencingcenter.com/fencing-links/">Fencing Links</a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-9049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub narrow"><a href="https://olympiafencingcenter.com/faqs/">FAQ</a>
+<div class="popup"><div class="inner" style=""><ul class="sub-menu porto-narrow-sub-menu">
+	<li id="nav-menu-item-10723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub" data-cols="1"><a href="https://olympiafencingcenter.com/club-policy/">Tuition Policy and Code of Conduct</a>
+	<ul class="sub-menu">
+		<li id="nav-menu-item-11772" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/cancellation-policy/">Cancellation/Holds Policy</a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-8823" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub" data-cols="1"><a href="https://olympiafencingcenter.com/discover-the-olympic-sport-of-fencing/">All About Fencing</a>
+	<ul class="sub-menu">
+		<li id="nav-menu-item-8828" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/fencing-ages/">Fencing through Ages</a></li>
+		<li id="nav-menu-item-8850" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/fencing-flash-mob/">Fencing Flash Mob</a></li>
+		<li id="nav-menu-item-12863" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/benefits-of-fencing/">Benefits of Fencing</a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-8851" class="menu-item menu-item-type-post_type menu-item-object-page" data-cols="1"><a href="https://olympiafencingcenter.com/gift-certificates/">Gift Certificates</a></li>
+	<li id="nav-menu-item-11402" class="menu-item menu-item-type-post_type menu-item-object-page" data-cols="1"><a href="https://olympiafencingcenter.com/birthday-parties/">Birthday Parties</a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-9359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub narrow"><a href="https://olympiafencingcenter.com/club-news/">Club News</a>
+<div class="popup"><div class="inner" style=""><ul class="sub-menu porto-narrow-sub-menu">
+	<li id="nav-menu-item-10443" class="menu-item menu-item-type-post_type menu-item-object-post" data-cols="1"><a href="https://olympiafencingcenter.com/fencing-at-the-2020-olympic-games/">Fencing at the 2020 Olympic Games Review</a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-11656" class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a href="https://olympiafencingcenter.com/job-opportunities/">Job Opportunities</a></li>
+</ul>				</div>
+				<div class="menu-right">
+								</div>
+			</div>
+		</div>
+	
+</header>
+
+									</div>
+				<!-- end header wrapper -->
+			
+			
+					<section class="page-top page-header-2">
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="">
+								<h1 class="page-title">Tournament Season 2025-26</h1>
+							</div>
+							<div class="breadcrumbs-wrap">
+					<ul class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><li class="home" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="https://olympiafencingcenter.com" title="Go to Home Page"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /><i class="delimiter"></i></li><li>Tournament Season 2025-26</li></ul>				</div>
+								</div>
+	</div>
+</div>
+	</section>
+	
+		<div id="main" class="column2 column2-right-sidebar boxed"><!-- main -->
+
+			<div class="container">
+			<div class="row main-content-wrap">
+
+			<!-- main content -->
+			<div class="main-content col-lg-9">
+
+			
+	<div id="content" role="main">
+				
+			<article class="post-1135 page type-page status-publish hentry">
+				
+				<h2 class="entry-title" style="display: none;">Tournament Season 2025-26</h2><span class="vcard" style="display: none;"><span class="fn"><a href="https://olympiafencingcenter.com" title="Posts by webmaster" rel="author">webmaster</a></span></span><span class="updated" style="display:none">2025-07-09T16:09:00-04:00</span>
+				<div class="page-content">
+					<p>As most of you should know, the fencing season runs from August 1st to July 31st, and registration for all competitions is available through the <a href="https://www.usafencing.org/how-to-register" target="_blank" rel="noopener noreferrer">USFA website</a>.<br />
+To be able to register, you’ll have to be logged into your USFA account.</p>
+<p>These are some of the <a href="https://www.usafencing.org/events-national" target="_blank" rel="noopener">Regional and National tournaments</a>.</p>
+<p><a href="https://www.usafencing.org/age-classification-eligibility" target="_blank" rel="noopener"><strong>USA Fencing Age/Classification Eligibility</strong></a>, <a href="https://www.usafencing.org/rules-compliance" target="_blank" rel="noopener">from the official Athlete Handbook.</a></p>
+<p><a href="https://www.usafencing.org/regional-calendar" target="_blank" rel="noopener noreferrer"><strong>Regional Schedule: SYCs, RJCCs, ROCs, RYCs</strong></a><br />
+Use <a href="https://member.usafencing.org/search/tournaments?_gl=1*1g93gnr*_ga*NTk4MTIxMjE3LjE2Njk4MzYwOTc.*_ga_XEXDBYM8E5*MTczMDMxMTA0My4yNC4xLjE3MzAzMTEzNDkuMC4wLjA." target="_blank" rel="noopener">this link to browse for tournaments</a> by name, weapon, circuit, etc.</p>
+<p><img fetchpriority="high" decoding="async" class="porto-lazyload aligncenter wp-image-13130 size-full" src="https://olympiafencingcenter.com/wp-content/uploads/porto_placeholders/100x58.jpg" data-oi="https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled.jpg" alt="" width="1111" height="654" srcset="https://olympiafencingcenter.com/wp-content/uploads/porto_placeholders/100x58.jpg 100w" data-srcset="https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled.jpg 1111w, https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled-1024x603.jpg 1024w, https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled-768x452.jpg 768w, https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled-640x377.jpg 640w, https://olympiafencingcenter.com/wp-content/uploads/2025/07/Untitled-400x235.jpg 400w" sizes="(max-width: 1111px) 100vw, 1111px" /></p>
+<p>&nbsp;</p>
+<p>There are many other nationwide competitions not listed here (the list would be way too long), where all fencers are encouraged to attend.<br />
+For a complete list, please visit <a href="https://askfred.net/" target="_blank" rel="noopener noreferrer">askfred.net</a> (Fencing Results And Events Database) or the <a href="http://www.usafencing.org/" target="_blank" rel="noopener noreferrer">United States Fencing Association </a>website.</p>
+<p><img decoding="async" class="porto-lazyload alignleft size-full wp-image-7599 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABHAQAAAADZod9hAAAAAnRSTlMAAHaTzTgAAAARSURBVCjPY2AYBaNgFAxfAAAD4gAB6eWhdAAAAABJRU5ErkJggg==" data-oi="https://olympiafencingcenter.com/wp-content/uploads/2018/03/region_map-300x213.png" alt="" width="300" height="213" data-src="https://olympiafencingcenter.com/wp-content/uploads/porto_placeholders/100x71.jpg" data-eio-rwidth="100" data-eio-rheight="71" /><noscript><img decoding="async" class="porto-lazyload alignleft size-full wp-image-7599" src="https://olympiafencingcenter.com/wp-content/uploads/porto_placeholders/100x71.jpg" data-oi="https://olympiafencingcenter.com/wp-content/uploads/2018/03/region_map-300x213.png" alt="" width="300" height="213" data-eio="l" /></noscript><br />
+Here is an interactive map with the fencing regions throughout the country. Please note that we’re part of the New England Division, which is region three.</p>
+<p>Another great tool is our parents&#8217; forum on <strong><a href="https://groups.google.com/forum/#!forum/olympia-fencing" target="_blank" rel="noopener noreferrer">Google Groups</a>,</strong>  where parents of Olympia students share tips, deadline reminders, and more.<br />
+We’re very grateful for such a great fencing community. Become one of them today, learn from their experience, and help your kids to the best they can be!</p>
+<p>&nbsp;</p>
+<p>We encourage our students to try competing as young as 8 years old.<br />
+<span style="color: #ff0000;">For parents new to fencing and interested in competing, please <a style="color: #ff0000;" href="https://olympiafencingcenter.com/contact-us/">send us a message</a> to learn how to get started.</span><br />
+Competing in fencing or any youth sport has many valuable aspects. Read more about this in the <a href="https://academyoffencingmasters.com/blog/10-reasons-besides-winning-that-competitive-fencing-is-great-for-kids/" target="_blank" rel="noopener noreferrer">Academy of Fencing Masters blog</a>.</p>
+<p>Here is our <span style="box-sizing: border-box; margin: 0px; padding: 0px;"><a href="https://olympiafencingcenter.com/novices-guide-competitive-fencing/" target="_blank" rel="noopener">guide to starting competitions</a>, including regional and local</span> events, age eligibility, qualification paths, and links to valuable learning tools.</p>
+<p>To make it easier to start, our club has organized a series of events for novice fencers, where students and families new to competitive fencing can learn the rules in a relaxed and non-pressured environment, with no obligation to purchase any equipment. The club provides all the necessary gear, which will be distributed to students 30 minutes before the event.</p>
+<p>&nbsp;</p>
+<h3 style="text-align: center;">The schedule for our own in-the-club &#8220;<strong>D’Artagnan Challenge Series, 2025-26&#8243; will be posted </strong>on askfred.net SOON</h3>
+<p><img decoding="async" class="porto-lazyload aligncenter size-medium wp-image-10500 lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABLAQAAAACuYx8aAAAAAnRSTlMAAHaTzTgAAAASSURBVDjLY2AYBaNgFIwCdAAABBoAAaNglfsAAAAASUVORK5CYII=" data-oi="https://olympiafencingcenter.com/wp-content/uploads/2021/11/dartagnan-trophy-300x225.jpg" alt="" width="300" height="225" data-src="https://olympiafencingcenter.com/wp-content/uploads/porto_placeholders/100x75.jpg" data-eio-rwidth="100" data-eio-rheight="75" /><noscript><img decoding="async" class="porto-lazyload aligncenter size-medium wp-image-10500" src="https://olympiafencingcenter.com/wp-content/uploads/porto_placeholders/100x75.jpg" data-oi="https://olympiafencingcenter.com/wp-content/uploads/2021/11/dartagnan-trophy-300x225.jpg" alt="" width="300" height="225" data-eio="l" /></noscript></p>
+<p>&nbsp;</p>
+<p><span style="color: #ff9900;"><em>*Note that these dates are tentative and subject to change based on regional and national scheduled events.**</em></span></p>
+<p>The <a href="https://olympiafencingcenter.com/dartagnan-series-for-novice-fencers/" target="_blank" rel="noopener">D&#8217;Artagnan Series</a> is a low-pressure, developmental tournament designed to introduce novice fencers to fencing competitions. No fencing experience is required for these events<span style="box-sizing: border-box; margin: 0px; padding: 0px;">; everyone can participate. However, we encourage you to <strong>check with the office</strong> or your child&#8217;s</span> class teacher, especially if this is your first competition.</p>
+<p>Medals/ribbons for the top 8 and rolling points are awarded for both boys and girls.<br />
+At the end of the series, the D’Artagnan trophy is presented to one boy and one girl in each age group. The trophy with a personal engraving is to take home and keep as a memory of your competitive fencing beginning.</p>
+<p>&nbsp;</p>
+<hr />
+<h3 style="text-align: center;">Qualification Paths for the 2025 Summer Nationals and July Challenge</h3>
+<p>The 2025 Summer Nationals and July Challenge will take place this season in Milwaukee, WI.</p>
+<p><strong>Summer Nationals</strong> – The culmination of the fencing season. This tournament lasts over 10 days in late June – early July, and requires qualification.</p>
+<p><strong>July Challenge</strong> – A July tournament for fencers in the junior and cadet age group that requires qualification. The July Challenge takes place same location/time as Summer Nationals.<br />
+<u><br />
+</u><a href="https://www.usafencing.org/2025summernationals" target="_blank" rel="noopener"><strong><u>2025 Summer Nationals Championship and July Challenge events</u></strong></a></p>
+<p><strong>CHAMPIONSHIP EVENTS<br />
+</strong>Youth &#8211; Y10, Y12, and Y14 <strong><br />
+</strong>Division 1A, Division 2, Division 3 <strong><br />
+</strong>All Veterans Events</p>
+<p><strong>JULY CHALLENGE EVENTS<br />
+</strong>Cadet and Junior<strong><br />
+</strong>Division 1</p>
+<p><a href="https://www.usafencing.org/athlete-handbook" target="_blank" rel="noopener">USA Fencing Athlete Handbook </a>.</p>
+<p>&nbsp;</p>
+<ol>
+<li><strong>AGE ELIGIBILITY </strong></li>
+</ol>
+<p>Age eligibility requirements apply year-round to all tournaments including Summer Nationals and July Challenge, NACs, Junior Olympics, Division 1 Championships, RYCs, SYCs, ROCs as well as sanctioned and unsanctioned local fencing tournaments.</p>
+<p>For ease of reference, you can see <a href="https://www.usafencing.org/age-classification-eligibility" target="_blank" rel="noopener">US Fencing’s Age Eligibility table HERE.</a></p>
+<ol start="2">
+<li><strong>CLASSIFICATION ELIGIBILITY</strong></li>
+</ol>
+<p>Rating classification restrictions apply to all Division 1, Division 2, and Division 3 events.</p>
+<ol start="3">
+<li><strong>CITIZENSHIP</strong></li>
+</ol>
+<p>Championship events at Summer Nationals require fencers to be US citizens or permanent residents. Foreign fencers are not allowed to compete in championship events.</p>
+<p>Fencers holding US citizenship who have represented a foreign country at an FIE event any time in the past 3 years will not be allowed to compete in a US Fencing championship.</p>
+<ol start="4">
+<li><strong>QUALIFYING PATHS </strong></li>
+</ol>
+<p>US Fencing stipulates up to 4 ways, depending on the event, in which a fencer can qualify for events at Summer Nationals, provided they are age and classification-eligible.</p>
+<ul>
+<li><strong>earning national points from </strong><a href="https://www.fencingparents.org/nationalcompetitions/2018/4/11/north-america-cups-nacs" target="_blank" rel="noopener"><strong>NACs</strong></a><strong>, Championships, July Challenge, </strong><a href="https://www.fencingparents.org/whats-new-in-fencing/2018/5/31/super-junior-cadet-circuit-march-15-17-2019-in-anaheim-ca" target="_blank" rel="noopener"><strong>SJCC</strong></a><strong>s or </strong><a href="https://www.fencingparents.org/qualifying-paths-to-fencing-championships-in-the-us/2018/4/4/regional-qualifying-paths-for-youth-events" target="_blank" rel="noopener"><strong>SYC</strong></a><strong>s and ranking on the relevant national points list </strong></li>
+<li><strong>earning the requisite number of regional qualifying points from </strong><a href="https://www.fencingparents.org/qualifying-paths-to-fencing-championships-in-the-us/2018/4/4/regional-qualifying-paths-for-youth-events" target="_blank" rel="noopener"><strong>RYC</strong></a><strong>s, </strong><a href="https://www.fencingparents.org/qualifying-paths-to-fencing-championships-in-the-us/2018/4/11/regional-junior-and-cadet-circuit-rjcc" target="_blank" rel="noopener"><strong>RJCC</strong></a><strong>s or </strong><a href="https://www.fencingparents.org/qualifying-paths-to-fencing-championships-in-the-us/2018/4/11/regional-open-circuit-roc" target="_blank" rel="noopener"><strong>ROC</strong></a></li>
+<li><strong>finishing in the top 25% in a </strong><a href="https://www.fencingparents.org/qualifying-paths-to-fencing-championships-in-the-us/2018/4/19/division-qualifiers" target="_blank" rel="noopener"><strong>Division Qualifier</strong></a><strong> (DQ) for Y14, Division 2 and Division 3 events</strong></li>
+<li><strong>finishing in the top 40% at a Division 2 NAC to qualify the fencer for the Division 2 Championship</strong></li>
+</ul>
+<p>You can download the 2024/2025 US Fencing Athlete Handbook <a href="https://www.usafencing.org/athlete-handbook" target="_blank" rel="noopener">HERE</a></p>
+<p><strong>NOTE TO PARENTS OF YOUTH FENCERS</strong></p>
+<p>With effect from Summer Nationals 2020, US Fencing will institute a “cut” in Y12 and Y14 events at the championship. The bottom 20% of the field after pools will be eliminated from the competition and will not be allowed to fence the Direct Elimination (DE) rounds.</p>
+<p><strong>ELIGIBILITY AND QUALIFICATION TABLES FOR 2025 SUMMER NATIONALS CHAMPIONSHIP AND JULY CHALLENGE EVENTS</strong></p>
+<p><strong>EVENTS:</strong></p>
+<p><span style="text-decoration: underline;"><strong>DIVISION 1</strong></span></p>
+<p><strong>JULY CHALLENGE EVENT</strong></p>
+<p><strong>ELIGIBILITY AND QUALIFICATION PATHS</strong></p>
+<p>Born 2010 or earlier</p>
+<p>(unless a fencer born after 2010 is on the relevant National Junior Points List at the registration deadline)</p>
+<p>Rating classification of A,B or C at the registration deadline</p>
+<p>No citizenship or permanent residency requirements. Open to qualified foreign fencers.</p>
+<p><strong>Qualifying Paths</strong></p>
+<p>Fencer must:</p>
+<ul>
+<li>Be on the current Senior National Rolling Point Standings (NRPS) at the regular fee entry deadline <strong>OR</strong></li>
+<li>Be on the aged-out Junior NRPS at the regular fee entry deadline and age-eligible <strong>OR</strong></li>
+<li>Be Top 24 of the aged Cadet NRPS at the regular fee deadline and age-eligible OR</li>
+<li>Be Top 16 from Div IA Regional Points Standings OR</li>
+<li>Be in the top 4 of the Division II regional points at the regular fee entry deadline OR</li>
+<li>Be a 2025 NCAA National Championships Individual Competitors (24) OR</li>
+<li>Foreign athletes who meet the USA Fencing classification standard of an “A”, “B” as defined in Section 2.2.4.</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>DIVISION 1A</strong></span></p>
+<p><strong>CHAMPIONSHIP EVENT</strong></p>
+<p>Born 2010 or earlier (unless a fencer born after 2010 is on the relevant National Junior Points List at registration deadline)<br />
+Rating classification of A,B,C,D,E or U at the registration deadline<br />
+The fencer must be a US citizen or permanent resident.</p>
+<p><strong>Qualifying Paths</strong></p>
+<p>The fencer must:</p>
+<ul>
+<li>Be on the current season’s Div IA ROC Regional Point Standings <strong>OR</strong></li>
+<li>in the top 8 of the Division II Regional Open Circuit point standings at the regular fee entry deadline.</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>DIVISION 2</strong></span></p>
+<p><strong>CHAMPIONSHIP EVENT</strong></p>
+<p>Born 2010 or earlier (unless a fencer born after 2010 is on the relevant National Junior Points List at registration deadline)<br />
+Rating classification of C, D, E or U at the registration deadline.<br />
+The fencer must be a US citizen or permanent resident.</p>
+<p><strong>Qualifying Paths</strong></p>
+<p>The fencer must:</p>
+<ul>
+<li>Place in the top 25% of the current season’s division qualifying competition, even if you earned a higher rating classification than eligibility requirements at that DQ, <strong>OR</strong></li>
+<li>Be on the current season’s Div IA ROC Regional Point Standings <strong>OR</strong></li>
+<li>Be on the Div II ROC Regional Point Standings <strong>OR</strong></li>
+<li>Place in the top 40% of any current season Division 2 NAC</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>DIVISIO</strong><strong>N </strong><strong>3</strong></span></p>
+<p><strong>CHAMPIONSHIP EVENT</strong></p>
+<p>Born 2010 or earlier (unless a fencer born after 2010 is on the relevant National Junior Points List at the registration deadline)<br />
+Rating classification of D, E or U at the registration deadline.<br />
+The fencer must be a US citizen or permanent resident.</p>
+<p><strong>Qualifying Paths</strong></p>
+<ul>
+<li>Place in the top 25% (round up) of the total number of “D”, “E”, or “U” fencers competing in the current season division’s Division 2 Qualifying competition (when Division 2 and Division 3 qualifying competitions are held together) <strong>OR</strong></li>
+<li>If separate Division 3 qualifying competition is held by division, then the top 25% of the field will qualify for Division 3 National Championships <strong>OR</strong></li>
+<li>Be on the Division IA or Division 2 Regional Open Circuit point standings, if classification eligible, at the regular fee entry deadline for these Championships <strong>OR</strong></li>
+<li>Qualified for Division II National Championships, if classification eligible</li>
+</ul>
+<p>Note: If the fencer qualifies through a Division 2 DQ, and earns a higher rating classification at that DQ, the fencer is still eligible to compete in the Division 3 championship events.</p>
+<p><span style="text-decoration: underline;"><strong>JUNIOR</strong></span></p>
+<p><strong>JULY CHALLENGE</strong></p>
+<p>Born 2006 to 2012 (unless a fencer born after 2012 is on the relevant National Cadet Points List at registration deadline)<br />
+No rating classification restrictions.<br />
+No citizenship or permanent resident restrictions. Open to foreign fencers.</p>
+<p><strong>Qualifying Paths</strong></p>
+<p>The fencer must be:</p>
+<ul>
+<li>On Junior NRPS (Age out rankings after JOs) by entry deadline <strong>OR</strong></li>
+<li>On Cadet NRPS (Age out rankings after JOs) <strong>OR</strong></li>
+<li>Earn at least <strong>65</strong> regional points (top 2 events) on your region&#8217;s Junior Regional Point Standing <strong>OR</strong></li>
+<li>Be in the top 25% of the Youth 14 national rolling point standings (NRPS) at the regular fee entry deadline <strong>OR</strong></li>
+<li>Foreign athletes who meet the USA Fencing classification standard of “A”, “B” as defined in Section 2.2.4</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>CADET</strong></span></p>
+<p><strong>JULY CHALLENGE</strong></p>
+<p>Born 2009 to 2012 (unless a fencer born after 2012 is on the relevant National Y14 Points List at the registration deadline)<br />
+No rating classification restrictions.<br />
+No citizenship or permanent residency requirements. Open to foreign fencers.</p>
+<p><strong>Qualifying Paths</strong></p>
+<p>The fencer must:</p>
+<ul>
+<li>Be on Cadet NRPS (Age out after JOs) <strong>OR</strong></li>
+<li>Be in the top 50% of the Y14 national rolling point standings (NRPS) at the regular fee entry deadline <strong>OR</strong></li>
+<li>Earn at least <strong>65</strong> regional points (top 2 events) on their region Cadet Regional Point Standing <strong>OR</strong></li>
+<li>Earn at least <strong>65</strong> regional points (top 2 events) on their region&#8217;s Junior Regional Circuit Points</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>Y14</strong></span></p>
+<p><strong>CHAMPIONSHIP EVENT</strong></p>
+<p>Born 2010 to 2013 (unless a fencer born after 2013 is on the relevant National Y12 Points List at the registration deadline)<br />
+No rating classification restrictions.<br />
+The fencer must be a US citizen or permanent resident.</p>
+<p><strong>Qualifying Paths</strong></p>
+<p>Fencer must:</p>
+<ul>
+<li>Be on the Youth 14 National Point Standings at the regular entry fee deadline <strong>OR</strong></li>
+<li>Earn at least <strong>150</strong> Y14 Regional Points during the current season (Total points = an athlete’s top 3 point results) <strong>OR</strong></li>
+<li>Place in the top 25% (round up) of the fencer’s division’s Y14 National Championship qualifying competition</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>Y12</strong></span></p>
+<p><strong>CHAMPIONSHIP EVENT</strong></p>
+<p>Born 2012 to 2015 (unless a fencer born after 2015 is on the relevant National Y10 National Points List at registration deadline)<br />
+No rating classification restrictions.<br />
+The fencer must be a US citizen or permanent resident.</p>
+<p><strong>Qualifying Paths</strong></p>
+<p>Fencer must:</p>
+<ul>
+<li>Be on the Y12 National Point Standings at the regular fee entry deadline <strong>OR</strong></li>
+<li>Earn at least <strong>70</strong> Y12 Regional Points during the current season (Total points = an athlete’s top 3 point results) <strong>OR</strong></li>
+<li>Earn at least <strong>150</strong> Y14 Regional Points during the current season (Total points = an athlete’s top 3 point results) <strong>OR</strong></li>
+<li>Place in the top 25% of the fencer’s division’s Y14 National Championship qualifying competition (DQ)</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>Y10</strong></span></p>
+<p><strong>CHAMPIONSHIP EVENT</strong></p>
+<p>Born 2014 &#8211; 2017<br />
+No rating classification restrictions.<br />
+The fencer must be a US citizen or permanent resident.</p>
+<p><strong>Qualifying Paths</strong></p>
+<p>Fencer must:</p>
+<ul>
+<li>Be on the Y10 National Point Standings at the regular fee entry deadline <strong>OR</strong></li>
+<li>Be on the Y10 Regional Youth Point Standings in your region at the regular fee entry deadline <strong>OR</strong></li>
+<li>Earn at least<strong> 60</strong> Y12 Regional Points during the current season (Total points = an athlete’s top 3 point results)</li>
+</ul>
+<p>&nbsp;</p>
+				</div>
+			</article>
+					
+	</div>
+
+		
+
+</div><!-- end main content -->
+
+	<div class="col-lg-3 sidebar porto-blog-sidebar right-sidebar"><!-- main sidebar -->
+						<div class="sidebar-content">
+						
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h3 class="widget-title">Club News</h3>
+		<ul>
+											<li>
+					<a href="https://olympiafencingcenter.com/pomme-de-terre-name/">The Origin of the &#8220;Pomme de Terre&#8221; Competition Name</a>
+									</li>
+											<li>
+					<a href="https://olympiafencingcenter.com/new-coaches/">New Coaches, New Season, New Goals!</a>
+									</li>
+											<li>
+					<a href="https://olympiafencingcenter.com/peer-to-peer-mentorship-program/">Introducing our exclusive Mentorship Program</a>
+									</li>
+											<li>
+					<a href="https://olympiafencingcenter.com/national-points-101/">National Points 101- How to get in the NRP</a>
+									</li>
+											<li>
+					<a href="https://olympiafencingcenter.com/dartagnan-series-crowns-the-winners/">D&#8217;Artagnan Series Crowns the Winners</a>
+									</li>
+					</ul>
+
+		</aside><aside id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget"><h3 class="widget-title">Sign Up For Our Newsletter</h3><script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.10.6 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-9059" method="post" data-id="9059" data-name="News Later" ><div class="mc4wp-form-fields"><div class="row">
+    <div class="col-lg-12">
+        <div class="form-group">
+<input type="email" name="EMAIL" placeholder="Your email address" required /><input type="submit" value="Sign up" />
+        </div>
+    </div>
+</div>
+</div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1754779002" /><input type="hidden" name="_mc4wp_form_id" value="9059" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></aside><aside id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><iframe  width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" data-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FOlympiaFencingCenter&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=202732144130795" class="lazyload"></iframe></div></aside><aside id="search-3" class="widget widget_search">
+<form method="get" id="searchform" class="searchform" action="https://olympiafencingcenter.com/">
+	<div class="input-group">
+		<input class="form-control" placeholder="Search&hellip;" name="s" id="s" type="text">
+		<button type="submit" class="btn btn-dark p-2"><i class="d-inline-block porto-icon-search-3"></i></button>
+	</div>
+</form>
+</aside><aside id="brb_widget-2" class="widget brb-collection-widget">            <div class="rplg" style="" data-id="9069"><div class="rplg-grid"><div class="rplg-grid-row rplg-businesses"><div class="rplg-col rplg-col-12"><div class="rplg-box"><div class="rplg-row"><div class="rplg-row-right"><div class="rplg-biz-name rplg-trim"><a href="https://www.yelp.com/biz/olympia-fencing-center-cambridge?adjust_creative=Rh_pkNYCwrW-601KRtpZ5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=Rh_pkNYCwrW-601KRtpZ5w" class="" target="_blank" rel="noopener nofollow"  >Olympia Fencing Center</a></div><div ><div class="rplg-biz-rating rplg-trim rplg-biz-yelp"><div class="rplg-biz-score" >4.4</div><div class="rplg-stars" data-info="4.5,yelp,"></div></div><div class="rplg-biz-based rplg-trim"><span class="rplg-biz-based-text">Based on 14 reviews</span></div></div><div class="rplg-links"><a href="https://www.yelp.com/biz/olympia-fencing-center-cambridge?adjust_creative=Rh_pkNYCwrW-601KRtpZ5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=Rh_pkNYCwrW-601KRtpZ5w" target="_blank" rel="noopener" onclick="return true;">See all reviews</a><a href="javascript:void(0)" onclick="_rplg_popup('https://www.yelp.com/writeareview/biz/YXa-e3AaNz3kpjGazTXfqg', 800, 600)">Write a review</a></div></div><span class="rplg-review-badge" data-badge="yelp"></span></div></div></div></div></div><div class="rplg-slider"><div class="rplgsw-container"><div class="rplgsw-wrapper"><div class="rplgsw-slide"><div class="rplg-slider-review"><div class="rplg-box"><div class="rplg-box-content" ><div class="rplg-stars" data-info="5,yelp,"></div><span class="rplg-review-text">                        I started fencing this past September.  Since then, I have learned that fencing is a lot like medicine.  It is critical to start with and to remember to...                    </span><span class="rplg-review-badge" data-badge="yelp"></span></div></div><div class="rplg-row"><div class="rplg-row-left"><img src="https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png" data-src="https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png" class="rplg-review-avatar rplg-blazy" alt="Jennifer C." width="56" height="56" title="Jennifer C." onerror="if(this.src!='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png')this.src='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png';" ></div><div class="rplg-row-right"><a href="https://www.yelp.com/biz/olympia-fencing-center-cambridge?adjust_creative=Rh_pkNYCwrW-601KRtpZ5w&hrid=sMWwE9ZKpQss82cXlVWxpw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=Rh_pkNYCwrW-601KRtpZ5w" class="rplg-review-name rplg-trim" target="_blank" rel="noopener nofollow"  title="Jennifer C.">Jennifer C.</a></div></div></div></div><div class="rplgsw-slide"><div class="rplg-slider-review"><div class="rplg-box"><div class="rplg-box-content" ><div class="rplg-stars" data-info="5,yelp,"></div><span class="rplg-review-text">                        Olympia Fencing is a wonderful community for kids and parents. My son generally starts shy but warms up in time. The coaches have built his confidence and...                    </span><span class="rplg-review-badge" data-badge="yelp"></span></div></div><div class="rplg-row"><div class="rplg-row-left"><img src="https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png" data-src="https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png" class="rplg-review-avatar rplg-blazy" alt="Mark M." width="56" height="56" title="Mark M." onerror="if(this.src!='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png')this.src='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png';" ></div><div class="rplg-row-right"><a href="https://www.yelp.com/biz/olympia-fencing-center-cambridge?adjust_creative=Rh_pkNYCwrW-601KRtpZ5w&hrid=lA1LYTkNK1EIr8niOLKTwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=Rh_pkNYCwrW-601KRtpZ5w" class="rplg-review-name rplg-trim" target="_blank" rel="noopener nofollow"  title="Mark M.">Mark M.</a></div></div></div></div><div class="rplgsw-slide"><div class="rplg-slider-review"><div class="rplg-box"><div class="rplg-box-content" ><div class="rplg-stars" data-info="5,yelp,"></div><span class="rplg-review-text">                        Tonight was my second class here, and it was even better than the first one. This is a top notch club, and I could not recommend them enough. I had never...                    </span><span class="rplg-review-badge" data-badge="yelp"></span></div></div><div class="rplg-row"><div class="rplg-row-left"><img src="https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png" data-src="https://s3-media4.fl.yelpcdn.com/photo/pmwV8jyKwpPLG20YxPCAfw/ms.jpg" class="rplg-review-avatar rplg-blazy" alt="Erik D." width="56" height="56" title="Erik D." onerror="if(this.src!='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png')this.src='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png';" ></div><div class="rplg-row-right"><a href="https://www.yelp.com/biz/olympia-fencing-center-cambridge?adjust_creative=Rh_pkNYCwrW-601KRtpZ5w&hrid=DRJhPoLbTpzSY8Ibq2sSfA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=Rh_pkNYCwrW-601KRtpZ5w" class="rplg-review-name rplg-trim" target="_blank" rel="noopener nofollow"  title="Erik D.">Erik D.</a></div></div></div></div><div class="rplgsw-slide"><div class="rplg-slider-review"><div class="rplg-box"><div class="rplg-box-content" ><div class="rplg-stars" data-info="5,yelp,"></div><span class="rplg-review-text">                        Mr. Daniel Hondor's   fencing classes are great. The groups are small; instructors are really enthusiastic and they give a lot of individual attention.  The...                    </span><span class="rplg-review-badge" data-badge="yelp"></span></div></div><div class="rplg-row"><div class="rplg-row-left"><img src="https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png" data-src="https://s3-media2.fl.yelpcdn.com/photo/i4jO8Spt4bJiJXlZv93CJA/ms.jpg" class="rplg-review-avatar rplg-blazy" alt="James Z." width="56" height="56" title="James Z." onerror="if(this.src!='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png')this.src='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png';" ></div><div class="rplg-row-right"><a href="https://www.yelp.com/biz/olympia-fencing-center-cambridge?adjust_creative=Rh_pkNYCwrW-601KRtpZ5w&hrid=X38_DzWkUpMl0Zo6N_l17Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=Rh_pkNYCwrW-601KRtpZ5w" class="rplg-review-name rplg-trim" target="_blank" rel="noopener nofollow"  title="James Z.">James Z.</a></div></div></div></div><div class="rplgsw-slide"><div class="rplg-slider-review"><div class="rplg-box"><div class="rplg-box-content" ><div class="rplg-stars" data-info="5,yelp,"></div><span class="rplg-review-text">                        If you are thinking about trying out the sport of modern fencing I highly suggest you checkout Olympia Fencing Center in Cambridge. When I was looking for a...                    </span><span class="rplg-review-badge" data-badge="yelp"></span></div></div><div class="rplg-row"><div class="rplg-row-left"><img src="https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png" data-src="https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png" class="rplg-review-avatar rplg-blazy" alt="George S." width="56" height="56" title="George S." onerror="if(this.src!='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png')this.src='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/img/yelp_avatar.png';" ></div><div class="rplg-row-right"><a href="https://www.yelp.com/biz/olympia-fencing-center-cambridge?adjust_creative=Rh_pkNYCwrW-601KRtpZ5w&hrid=d1KHeez4b6YzulD9dRkPyg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=Rh_pkNYCwrW-601KRtpZ5w" class="rplg-review-name rplg-trim" target="_blank" rel="noopener nofollow"  title="George S.">George S.</a></div></div></div></div></div><div class="rplgsw-pagination"></div></div><div class="rplg-slider-prev"><span>&lsaquo;</span></div><div class="rplg-slider-next"><span>&rsaquo;</span></div></div><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="js_loader" onload="(function(el, args) { var t = setInterval(function () { if (window.rplg_init_slider_theme){ rplg_init_slider_theme(el, args); clearInterval(t); } }, 200); })(this.parentNode, {'speed':5000,'effect':'slide','count':'1','space':40,'pagin':true,'nextprev':true,'mobileBreakpoint':500,'mobileCount':1,'tabletBreakpoint':800,'tabletCount':'1','desktopBreakpoint':1024,'desktopCount':'1'});" data-exec="false" data-func="rplg_init_slider_theme" data-args='{"speed":5000,"effect":"slide","count":"1","space":40,"pagin":true,"nextprev":true,"mobileBreakpoint":500,"mobileCount":1,"tabletBreakpoint":800,"tabletCount":"1","desktopBreakpoint":1024,"desktopCount":"1"}' width="1" height="1" style="display:none"></div>            </aside>		</div>
+					</div><!-- end main sidebar -->
+
+
+	</div>
+	</div>
+
+					
+				
+				</div><!-- end main -->
+
+				
+				<div class="footer-wrapper">
+
+																																				<div class="footer-top">
+									<div class="container">
+										<aside id="block-widget-3" class="widget widget-block">			<div class="block">
+				<div class="porto-block" data-id="9066"><style>.vc_custom_1593443572018{padding-top: 30px !important;}.wpb_custom_74c312c6382c672d88415152636ca045 .porto-sicon-title{color: #ffffff;}.wpb_custom_74c312c6382c672d88415152636ca045.porto-sicon-mobile{--porto-infobox-mpos-align: center;}.wpb_custom_1efe903570d178ff0a9b7bfa5febd3a4.porto-sicon-mobile{--porto-infobox-mpos-align: center;}</style><div class="vc_row wpb_row row top-row vc_custom_1593443572018 wpb_custom_034b39d9bc6c6b310d69e39f0ccf274f"><div class="vc_column_container col-md-12"><div class="wpb_wrapper vc_column-inner"><div class="vc_row wpb_row vc_inner row"><div class="vc_column_container col-md-8"><div class="wpb_wrapper vc_column-inner"><div class="porto-u-heading  wpb_custom_95aa9a11c17ad45cfabaf210d84ee7cc porto-u-ad87e2eaf3f9c495180fe0156ddf3eb0 "><div class="porto-u-main-heading"><h2   style="color:#ffffff;">Contact Us</h2></div><style>.porto-u-ad87e2eaf3f9c495180fe0156ddf3eb0.porto-u-heading{text-align:left}</style></div></div></div><div class="vc_column_container col-md-4"><div class="wpb_wrapper vc_column-inner"><div class="porto-u-heading  wpb_custom_95aa9a11c17ad45cfabaf210d84ee7cc porto-u-ad87e2eaf3f9c495180fe0156ddf3eb0 "><div class="porto-u-main-heading"><h2   style="color:#ffffff;">Follow Us</h2></div><style>.porto-u-ad87e2eaf3f9c495180fe0156ddf3eb0.porto-u-heading{text-align:left}</style></div></div></div></div><div class="vc_row wpb_row vc_inner row"><div class="vc_column_container col-md-4"><div class="wpb_wrapper vc_column-inner"><div class="porto-sicon-box  wpb_custom_74c312c6382c672d88415152636ca045 style_1 left-icon"><div class="porto-sicon-left"><div class="porto-just-icon-wrapper porto-icon none" style="color:#1e73be;font-size:30px;"><i class="fas fa-map-marker-alt"></i></div></div><div class="porto-sicon-body"><div class="porto-sicon-description" style="color:#ffffff;">127 Smith Pl. Cambridge MA</div> <!-- description --></div></div><!-- porto-sicon-box --><div class="porto-sicon-box  wpb_custom_1efe903570d178ff0a9b7bfa5febd3a4 style_1 left-icon"><div class="porto-sicon-left"><div class="porto-just-icon-wrapper porto-icon none" style="color:#1e73be;font-size:30px;"><i class="fas fa-phone-volume"></i></div></div><div class="porto-sicon-body"><div class="porto-sicon-description" style=""><a href="tel:(617) 945 9448">(617) 945 9448</a></div> <!-- description --></div></div><!-- porto-sicon-box --><div class="porto-sicon-box  wpb_custom_1efe903570d178ff0a9b7bfa5febd3a4 style_1 left-icon"><div class="porto-sicon-body"></div></div><!-- porto-sicon-box --></div></div><div class="vc_column_container col-md-4"><div class="wpb_wrapper vc_column-inner"><div class="porto-sicon-box  wpb_custom_74c312c6382c672d88415152636ca045 style_1 left-icon"><div class="porto-sicon-left"><div class="porto-just-icon-wrapper porto-icon none" style="color:#1e73be;font-size:30px;"><i class="fas fa-map-marker-alt"></i></div></div><div class="porto-sicon-body"><div class="porto-sicon-description" style="color:#ffffff;">66 Winchester St. Newton, MA</div> <!-- description --></div></div><!-- porto-sicon-box --><div class="porto-sicon-box  wpb_custom_1efe903570d178ff0a9b7bfa5febd3a4 style_1 left-icon"><div class="porto-sicon-left"><div class="porto-just-icon-wrapper porto-icon none" style="color:#1e73be;font-size:30px;"><i class="fas fa-phone-volume"></i></div></div><div class="porto-sicon-body"><div class="porto-sicon-description" style=""><a href="tel:(617) 467 4104">(617) 467 4104</a></div> <!-- description --></div></div><!-- porto-sicon-box --><div class="porto-sicon-box  wpb_custom_1efe903570d178ff0a9b7bfa5febd3a4 style_1 left-icon"><div class="porto-sicon-body"></div></div><!-- porto-sicon-box --></div></div><div class="vc_column_container col-md-4"><div class="wpb_wrapper vc_column-inner"><div  class="wpb_widgetised_column wpb_content_element">
+		<div class="wpb_wrapper">
+			
+			<aside id="follow-us-widget-2" class="widget sbg_widget Socialmedia follow-us">		<div class="share-links default-skin">
+										<a href="https://www.facebook.com/OlympiaFencingCenter/"  rel=&quot;nofollow noopener noreferrer&quot; target="_blank" data-toggle=&quot;tooltip&quot; data-bs-placement=&quot;bottom&quot; title="Facebook" class="share-facebook">Facebook</a>
+								<a href="https://twitter.com/Olympia_Fencing"  rel=&quot;nofollow noopener noreferrer&quot; target="_blank" data-toggle=&quot;tooltip&quot; data-bs-placement=&quot;bottom&quot; title="X" class="share-twitter">Twitter</a>
+								<a href="https://www.pinterest.com/olympiafencing/"  rel=&quot;nofollow noopener noreferrer&quot; target="_blank" data-toggle=&quot;tooltip&quot; data-bs-placement=&quot;bottom&quot; title="Pinterest" class="share-pinterest">Pinterest</a>
+								<a href="https://www.youtube.com/user/OlympiaFencingUS"  rel=&quot;nofollow noopener noreferrer&quot; target="_blank" data-toggle=&quot;tooltip&quot; data-bs-placement=&quot;bottom&quot; title="Youtube" class="share-youtube">Youtube</a>
+								<a href="https://www.instagram.com/olympiafencingcenter/"  rel=&quot;nofollow noopener noreferrer&quot; target="_blank" data-toggle=&quot;tooltip&quot; data-bs-placement=&quot;bottom&quot; title="Instagram" class="share-instagram">Instagram</a>
+								<a href="https://www.linkedin.com/company/olympia-fencing-center-inc-/"  rel=&quot;nofollow noopener noreferrer&quot; target="_blank" data-toggle=&quot;tooltip&quot; data-bs-placement=&quot;bottom&quot; title="Linkedin" class="share-linkedin">Linkedin</a>
+									</div>
+
+		</aside><aside id="mc4wp_form_widget-3" class="widget sbg_widget Socialmedia widget_mc4wp_form_widget"><h3 class="widget-title sbg_title">Sign Up For Our Newsletter</h3><script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.10.6 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-2" class="mc4wp-form mc4wp-form-9059" method="post" data-id="9059" data-name="News Later" ><div class="mc4wp-form-fields"><div class="row">
+    <div class="col-lg-12">
+        <div class="form-group">
+<input type="email" name="EMAIL" placeholder="Your email address" required /><input type="submit" value="Sign up" />
+        </div>
+    </div>
+</div>
+</div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1754779002" /><input type="hidden" name="_mc4wp_form_id" value="9059" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></aside>
+		</div>
+	</div>
+</div></div></div></div></div></div></div>			</div>
+		</aside>									</div>
+								</div>
+							
+							<div id="footer" class="footer footer-2"
+>
+	
+	<div class="footer-bottom">
+	<div class="container">
+		
+					<div class="footer-center">
+								<span class="footer-copyright">© Copyright 2023 Olympia Fencing Center. All Rights Reserved. </span>			</div>
+		
+			</div>
+</div>
+</div>
+
+												
+					
+				</div>
+							
+					
+	</div><!-- end wrapper -->
+	
+<div class="panel-overlay" ></div>
+<a href="#" aria-label="Mobile Close" class="side-nav-panel-close"><svg width="1.5rem" height="1.5rem" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="cross"><line stroke="#fff" stroke-width="2px" x1="7" x2="25" y1="7" y2="25"/><line stroke="#fff" stroke-width="2px" x1="7" x2="25" y1="25" y2="7"/></g></svg></a>
+<div id="side-nav-panel" class="panel-left">
+	
+	<div class="menu-wrap"><ul id="menu-october-2025" class="mobile-menu accordion-menu"><li id="accordion-menu-item-8822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/about-us/">About Us</a>
+<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+	<li id="accordion-menu-item-8825" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/coaches-stellar-team/">Coaches &#038; Staff</a></li>
+	<li id="accordion-menu-item-11067" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://olympiafencingcenter.com/calendar/club-schedule-calendar/">Club Calendar</a></li>
+	<li id="accordion-menu-item-8826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a title="Directions to Olympia" href="https://olympiafencingcenter.com/contact-us/">Contact/Directions</a>
+	<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+		<li id="accordion-menu-item-9756" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/cambridge-location/">Cambridge Location</a></li>
+		<li id="accordion-menu-item-9441" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/newton-location/">Newton Highlands Location</a></li>
+	</ul>
+</li>
+	<li id="accordion-menu-item-12978" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/peer-to-peer-mentorship-program/">Introducing our exclusive Mentorship Program</a></li>
+</ul>
+</li>
+<li id="accordion-menu-item-8881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/">Class Schedule</a>
+<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+	<li id="accordion-menu-item-9690" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/cambridge-class-schedule/">Cambridge Class Schedule</a></li>
+	<li id="accordion-menu-item-9698" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/newton-class-schedule/">Newton Class Schedule</a></li>
+	<li id="accordion-menu-item-9913" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/home-school-program/">Home Schoolers</a></li>
+	<li id="accordion-menu-item-8852" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/book-free-fencing-class/">Book Your Trial Class Here</a>
+	<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+		<li id="accordion-menu-item-11883" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/auction-gift-certificates-redemption/">Auction/Gift Certificates Redemption</a></li>
+	</ul>
+</li>
+	<li id="accordion-menu-item-10386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/new-student-registration/">New Student Registration</a>
+	<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+		<li id="accordion-menu-item-11888" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/usfa-new-member-registration/">Registration with US Fencing Association</a></li>
+		<li id="accordion-menu-item-8849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/fencing-equipment/">Fencing Equipment: Loaners and Purchasing</a>
+		<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+			<li id="accordion-menu-item-10663" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/fencing-equipment/fencing-gear-care/">Care and Cleaning of the Épée Fencing Gear</a></li>
+		</ul>
+</li>
+		<li id="accordion-menu-item-10652" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/private-lessons-information/">Private Lessons Information</a></li>
+		<li id="accordion-menu-item-8855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/club-policy/">Tuition Policy and Code of Conduct</a>
+		<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+			<li id="accordion-menu-item-10787" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/cancellation-policy/">Cancellation/Holds Policy</a>
+			<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+				<li id="accordion-menu-item-11896" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/return-your-loaned-fencing-gear/">Return your loaned fencing gear</a></li>
+			</ul>
+</li>
+			<li id="accordion-menu-item-9795" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/privacy-policy/">Privacy Policy</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="accordion-menu-item-8829" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1135 current_page_item menu-item-has-children active has-sub"><a href="https://olympiafencingcenter.com/tournament-season-2025-26/" class=" current ">Tournament Season 2025-26</a>
+<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+	<li id="accordion-menu-item-9223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/novices-guide-competitive-fencing/">Novice’s Guide To Competitive Fencing</a>
+	<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+		<li id="accordion-menu-item-10603" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/fencing-equipment/">Buy Fencing Equipment</a></li>
+		<li id="accordion-menu-item-11074" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/private-lessons-information/">Private Lessons Information</a></li>
+		<li id="accordion-menu-item-11031" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/strip-coaching-101/">Strip Coaching 101</a>
+		<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+			<li id="accordion-menu-item-12995" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/fencing-equipment/fencing-gear-care/">Care and Cleaning of the Épée Fencing Gear</a></li>
+		</ul>
+</li>
+		<li id="accordion-menu-item-10520" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/summer-nationals-2024-qualification/">Qualification paths for the 2025 Summer Nationals and July Challenge</a>
+		<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+			<li id="accordion-menu-item-12754" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/national-points-101/">National Points 101- How to get in the NRP</a></li>
+			<li id="accordion-menu-item-10519" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/junior-olympics-in-fencing/">What are the Junior Olympics in Fencing?</a></li>
+			<li id="accordion-menu-item-10547" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/explanation-of-the-usfa-letter-ratings/">Explanation of the USFA Letter Ratings</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="accordion-menu-item-10867" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/why-your-fencing-birthday-is-different-than-your-real-birthday/">Why your “Fencing Birthday” is Different than your Real Birthday?</a></li>
+	<li id="accordion-menu-item-10143" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/how-to-become-an-olympic-fencer/">How to “Become” an Olympic Fencer</a></li>
+	<li id="accordion-menu-item-11557" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/how-to-qualify-for-the-world-cups-a-summary/">How to Qualify for the World Cups – A Summary</a></li>
+</ul>
+</li>
+<li id="accordion-menu-item-9840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/kids-summer-camps/">Camps and Clinics</a>
+<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+	<li id="accordion-menu-item-12987" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/pre-nationals-advanced-clinic/">Pre-Nationals Épée Advanced Clinic 2025</a></li>
+	<li id="accordion-menu-item-13081" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/pre-nationals-youth-competitive-ages-9-14/">Pre-Nationals Épée Clinic for ages 9-14</a></li>
+	<li id="accordion-menu-item-10049" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/kids-summer-camps/cambridge-fencing-camps/">Summer Camps for Beginner/Intermediate</a></li>
+	<li id="accordion-menu-item-12881" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/elite-summer-camps/">Elite Épée Summer Camps</a></li>
+</ul>
+</li>
+<li id="accordion-menu-item-11491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/member-portal/">Member Portal</a>
+<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+	<li id="accordion-menu-item-11575" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/dartagnan-series-for-novice-fencers/">D’Artagnan Series for Novice Fencers</a></li>
+	<li id="accordion-menu-item-11771" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/private-lessons-information/">Private Lessons Information</a></li>
+	<li id="accordion-menu-item-11946" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/armory-procedure/">Armory Procedure</a></li>
+	<li id="accordion-menu-item-11863" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/fencing-video-analysis/">Video analysis</a></li>
+	<li id="accordion-menu-item-11875" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/return-your-loaned-fencing-gear/">Return your loaned fencing gear</a></li>
+	<li id="accordion-menu-item-11690" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/fencing-gear-swap-sell/">Swap your Gently Used Fencing Gear Here</a></li>
+	<li id="accordion-menu-item-11751" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/order-your-club-warm-ups/">Order Your Club Warm-ups</a></li>
+	<li id="accordion-menu-item-8853" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/fencing-links/">Fencing Links</a></li>
+</ul>
+</li>
+<li id="accordion-menu-item-9049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/faqs/">FAQ</a>
+<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+	<li id="accordion-menu-item-10723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/club-policy/">Tuition Policy and Code of Conduct</a>
+	<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+		<li id="accordion-menu-item-11772" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/cancellation-policy/">Cancellation/Holds Policy</a></li>
+	</ul>
+</li>
+	<li id="accordion-menu-item-8823" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/discover-the-olympic-sport-of-fencing/">All About Fencing</a>
+	<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+		<li id="accordion-menu-item-8828" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/fencing-ages/">Fencing through Ages</a></li>
+		<li id="accordion-menu-item-8850" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/fencing-flash-mob/">Fencing Flash Mob</a></li>
+		<li id="accordion-menu-item-12863" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/benefits-of-fencing/">Benefits of Fencing</a></li>
+	</ul>
+</li>
+	<li id="accordion-menu-item-8851" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/gift-certificates/">Gift Certificates</a></li>
+	<li id="accordion-menu-item-11402" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/birthday-parties/">Birthday Parties</a></li>
+</ul>
+</li>
+<li id="accordion-menu-item-9359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="https://olympiafencingcenter.com/club-news/">Club News</a>
+<span aria-label="Open Submenu" class="arrow" role="button"></span><ul class="sub-menu">
+	<li id="accordion-menu-item-10443" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://olympiafencingcenter.com/fencing-at-the-2020-olympic-games/">Fencing at the 2020 Olympic Games Review</a></li>
+</ul>
+</li>
+<li id="accordion-menu-item-11656" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://olympiafencingcenter.com/job-opportunities/">Job Opportunities</a></li>
+</ul></div></div>
+
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<div class="simple-banner simple-banner-text" style="display:none !important"></div><script type="text/javascript">
+var inboxs = new Array();
+inboxs['hidezeronumberitem'] = "yes";
+inboxs['selectors'] = '.tooltips_list > span';
+inboxs['navitemdefaultsize'] = '12px'; 
+inboxs['navitemselectedsize'] = '14px';
+inboxs['number'] = "no";
+jQuery(document).ready(function () {
+	jQuery('.member_directory_table').directory(inboxs);
+		jQuery('.navitem').css('font-size','12px');	
+})
+</script>
+<script type="text/javascript">			jQuery(document).ready(function () {
+				jQuery('.tooltips_table_items .tooltips_table_title .tooltipsall').each
+				(function()
+				{
+				disabletooltipforclassandidSinglei = jQuery(this).text();
+				jQuery(this).replaceWith(disabletooltipforclassandidSinglei);
+				})
+			})
+			</script><script type="text/javascript">				jQuery(document).ready(function () {
+					jQuery('.tooltips_table_items .tooltips_table_content .tooltipsall').each
+					(function()
+					{
+					disabletooltipforclassandidSinglei = jQuery(this).html();
+					jQuery(this).replaceWith(disabletooltipforclassandidSinglei);
+					})
+				})
+				</script><script type="text/javascript">			jQuery(document).ready(function () {
+				jQuery('.tooltips_table_items .tooltips_table_title .tooltipsall').each
+				(function()
+				{
+				disabletooltipforclassandidSinglei = jQuery(this).text();
+				jQuery(this).replaceWith(disabletooltipforclassandidSinglei);
+				})
+			})
+			</script><script type="text/javascript">				jQuery(document).ready(function () {
+					jQuery('.tooltips_table_items .tooltips_table_content .tooltipsall').each
+					(function()
+					{
+					disabletooltipforclassandidSinglei = jQuery(this).html();
+					jQuery(this).replaceWith(disabletooltipforclassandidSinglei);
+					})
+				})
+				</script><script type="text/javascript">
+jQuery("document").ready(function()
+{
+	jQuery("body img").each(function()
+	{
+		if ((jQuery(this).parent("a").attr('title') != '' )  && (jQuery(this).parent("a").attr('title') != undefined ))
+		{
+			toolTips(jQuery(this).parent("a"),jQuery(this).parent("a").attr('title'));
+		}
+		else
+		{
+			var tempAlt = jQuery(this).attr('alt');
+			if (typeof(tempAlt) !== "undefined")
+			{
+				tempAlt = tempAlt.replace(' ', '');
+				if (tempAlt == '')
+				{
+
+				}
+				else
+				{
+					toolTips(jQuery(this),jQuery(this).attr('alt'));
+				}
+			}
+		}
+	}
+
+	);
+})
+</script>
+<script type="text/javascript">
+var inboxs = new Array();
+inboxs['language'] = "en";
+inboxs['hidezeronumberitem'] = "no";
+inboxs['navitemselectedsize'] = '18px';
+inboxs['selectors'] = '.tooltips_list > span';
+inboxs['navitemdefaultsize'] = '12px';
+inboxs['number'] = "yes";
+jQuery(document).ready(function () {
+	jQuery('.tooltips_directory').directory(inboxs); 
+	jQuery('.navitem').css('font-size','12px');	
+})
+</script>
+<script type="text/javascript">			jQuery(document).ready(function () {
+				jQuery('.tooltips_table_items .tooltips_table_title .tooltipsall').each
+				(function()
+				{
+				disabletooltipforclassandidSinglei = jQuery(this).text();
+				jQuery(this).replaceWith(disabletooltipforclassandidSinglei);
+				})
+			})
+			</script><script type="text/javascript">				jQuery(document).ready(function () {
+					jQuery('.tooltips_table_items .tooltips_table_content .tooltipsall').each
+					(function()
+					{
+					disabletooltipforclassandidSinglei = jQuery(this).html();
+					jQuery(this).replaceWith(disabletooltipforclassandidSinglei);
+					})
+				})
+				</script><script>(function() {function maybePrefixUrlField () {
+  const value = this.value.trim()
+  if (value !== '' && value.indexOf('http') !== 0) {
+    this.value = 'http://' + value
+  }
+}
+
+const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
+for (let j = 0; j < urlFields.length; j++) {
+  urlFields[j].addEventListener('blur', maybePrefixUrlField)
+}
+})();</script><!-- YouTube Feeds JS -->
+<script type="text/javascript">
+
+</script>
+<script type="text/html" id="wpb-modifications"> window.wpbCustomElement = 1; </script><link rel='stylesheet' id='brb-public-swiper-css-css' href='https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/css/public-swiper.min.css?ver=1.9.29' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='//olympiafencingcenter.com/wp-content/plugins/revslider/sr6/assets/css/rs6.css?ver=6.7.20' media='all' />
+<style id='rs-plugin-settings-inline-css'>
+#rs-demo-id {}
+</style>
+<script id="eio-lazy-load-js-before">
+var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":0,"threshold":0,"use_dpr":1};
+</script>
+<script src="https://olympiafencingcenter.com/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=820" id="eio-lazy-load-js" async data-wp-strategy="async"></script>
+<script src="https://olympiafencingcenter.com/wp-content/plugins/google-calendar-events/assets/generated/vendor/jquery.qtip.min.js?ver=3.5.5" id="simcal-qtip-js"></script>
+<script id="simcal-default-calendar-js-extra">
+var simcal_default_calendar = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"3b2cca043c","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+</script>
+<script src="https://olympiafencingcenter.com/wp-content/plugins/google-calendar-events/assets/generated/default-calendar.min.js?ver=3.5.5" id="simcal-default-calendar-js"></script>
+<script src="https://olympiafencingcenter.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=7.9" id="wpb_composer_front_js-js"></script>
+<script src="https://olympiafencingcenter.com/wp-content/themes/porto/js/bootstrap.optimized.min.js?ver=5.0.1" id="bootstrap-js"></script>
+<script src="https://olympiafencingcenter.com/wp-content/themes/porto/js/libs/jquery.cookie.min.js?ver=1.4.1" id="jquery-cookie-js"></script>
+<script src="https://olympiafencingcenter.com/wp-content/themes/porto/js/libs/owl.carousel.min.js?ver=2.3.4" id="owl.carousel-js"></script>
+<script src="https://olympiafencingcenter.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script async="async" src="https://olympiafencingcenter.com/wp-content/themes/porto/js/libs/jquery.magnific-popup.min.js?ver=1.1.0" id="jquery-magnific-popup-js"></script>
+<script id="porto-theme-js-extra">
+var js_porto_vars = {"rtl":"","theme_url":"https:\/\/olympiafencingcenter.com\/wp-content\/themes\/porto-child-Theme","ajax_url":"https:\/\/olympiafencingcenter.com\/wp-admin\/admin-ajax.php","cart_url":"","change_logo":"1","container_width":"1140","grid_gutter_width":"30","show_sticky_header":"1","show_sticky_header_tablet":"1","show_sticky_header_mobile":"1","ajax_loader_url":"\/\/olympiafencingcenter.com\/wp-content\/themes\/porto\/images\/ajax-loader@2x.gif","category_ajax":"1","compare_popup":"","compare_popup_title":"","prdctfltr_ajax":"","slider_loop":"","slider_autoplay":"","slider_autoheight":"1","slider_speed":"5000","slider_nav":"1","slider_nav_hover":"","slider_margin":"","slider_dots":"","slider_animatein":"","slider_animateout":"","product_thumbs_count":"4","product_zoom":"1","product_zoom_mobile":"1","product_image_popup":"1","zoom_type":"inner","zoom_scroll":"1","zoom_lens_size":"200","zoom_lens_shape":"square","zoom_contain_lens":"1","zoom_lens_border":"1","zoom_border_color":"#888888","zoom_border":"0","screen_xl":"1170","screen_xxl":"1420","mfp_counter":"%curr% of %total%","mfp_img_error":"<a href=\"%url%\">The image<\/a> could not be loaded.","mfp_ajax_error":"<a href=\"%url%\">The content<\/a> could not be loaded.","popup_close":"Close","popup_prev":"Previous","popup_next":"Next","request_error":"The requested content cannot be loaded.<br\/>Please try again later.","loader_text":"Loading...","submenu_back":"Back","porto_nonce":"4d5a17a586","use_skeleton_screen":[],"user_edit_pages":"","quick_access":"Click to edit this element.","goto_type":"Go To the Type Builder.","legacy_mode":"1","func_url":"https:\/\/olympiafencingcenter.com\/wp-content\/plugins\/porto-functionality\/"};
+</script>
+<script src="https://olympiafencingcenter.com/wp-content/themes/porto/js/theme.min.js?ver=7.4.2" id="porto-theme-js"></script>
+<script async="async" src="https://olympiafencingcenter.com/wp-content/themes/porto/js/theme-async.min.js?ver=7.4.2" id="porto-theme-async-js"></script>
+<script src="https://olympiafencingcenter.com/wp-content/plugins/google-calendar-events/assets/generated/vendor/imagesloaded.pkgd.min.js?ver=3.5.5" id="simplecalendar-imagesloaded-js"></script>
+<script src="https://olympiafencingcenter.com/wp-content/themes/porto/js/libs/lazyload.min.js?ver=1.9.7" id="lazyload-js"></script>
+<script src="https://olympiafencingcenter.com/wp-content/themes/porto/js/sidebar-menu.min.js?ver=7.4.2" id="porto-sidebar-menu-js"></script>
+<script defer="defer" src="https://olympiafencingcenter.com/wp-content/plugins/business-reviews-bundle/assets/js/public-swiper.min.js?ver=1.9.29" id="brb-public-swiper-js-js"></script>
+<script defer src="https://olympiafencingcenter.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.10.6" id="mc4wp-forms-api-js"></script>
+<script></script><script>jQuery( ".on_click_redirect_home" ).click(function() {
+    var base_url = window.location.origin;
+window.location.href = base_url;
+});</script></body>
+</html>
