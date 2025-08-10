@@ -1,5 +1,5 @@
 # app.py — Fencing AI (ChatGPT-style UI, no sidebar)
-# Run: streamlit run app.py
+# Run: streamlit run "app.py"
 
 import os, json, time
 from pathlib import Path
