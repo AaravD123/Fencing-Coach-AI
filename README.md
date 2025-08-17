@@ -18,7 +18,7 @@ It runs locally with Ollama + Mistral so you don’t need an internet connection
 📦 One-Click Install & Run
 This app is designed to be super easy to start.
 
-You just run one_click_start.ps1 — it will:
+You just run start fencing coach — it will:
 
 Install Ollama if not already installed
 
@@ -37,7 +37,7 @@ Extract the folder anywhere you want
 
 Open the Start folder
 
-Right-click one_click_start.ps1 → “Run with PowerShell”
+Right-click start fencing coach - open
 
 Wait for setup to complete — your browser will open with the chatbot
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
